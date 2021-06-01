@@ -1,69 +1,14 @@
 {
   "todos": [
     {
-      "title": "Read SitePoint article",
-      "complete": true,
-      "id": 1
-    },
-    {
-      "title": "Clean inbox",
-      "complete": true,
-      "id": 2
-    },
-    {
-      "title": "syö",
-      "complete": true,
-      "id": 4
-    },
-    {
-      "title": "1",
-      "complete": false,
-      "id": 5
-    },
-    {
-      "title": "2",
-      "complete": false,
-      "id": 6
-    },
-    {
-      "title": "3",
-      "complete": false,
-      "id": 7
-    },
-    {
-      "title": "4",
-      "complete": false,
-      "id": 8
-    },
-    {
-      "title": "5",
-      "complete": false,
-      "id": 9
-    },
-    {
-      "title": "6",
-      "complete": false,
-      "id": 10
-    },
-    {
-      "title": "7",
-      "complete": false,
-      "id": 11
-    },
-    {
-      "title": "8",
-      "complete": false,
-      "id": 12
-    },
-    {
-      "title": "9",
-      "complete": false,
-      "id": 13
-    },
-    {
       "title": "425345435345",
       "complete": false,
       "id": 14
+    },
+    {
+      "title": "Aamupalaveri",
+      "complete": false,
+      "id": 15
     }
   ]
 }

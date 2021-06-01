@@ -5,19 +5,17 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { TodoDataService } from './todo-data.service';
-import { TodoListComponent } from './todo-list/todo-list.component';
-import { TodoListFooterComponent } from './todo-list-footer/todo-list-footer.component';
-import { TodoListHeaderComponent } from './todo-list-header/todo-list-header.component';
-import { TodoListItemComponent } from './todo-list-item/todo-list-item.component';
+import { TodoNotepadComponent } from './todo-notepad/todo-notepad.component';
+import { HeaderComponent } from './header/header.component';
+import { NoteComponent } from './note/note.component';
 import { ApiService } from './api.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodoListComponent,
-    TodoListFooterComponent,
-    TodoListHeaderComponent,
-    TodoListItemComponent
+    TodoNotepadComponent,
+    HeaderComponent,
+    NoteComponent
   ],
   imports: [
     BrowserModule,
