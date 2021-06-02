@@ -51,7 +51,6 @@ export class AppComponent implements OnInit {
     if (todo == null) {
       return;
     }
-    console.log('miksi tänne meet?');
     this.todoDataService
       .deleteTodoById(todo.id)
       .subscribe(
