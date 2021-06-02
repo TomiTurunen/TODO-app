@@ -1,10 +1,10 @@
 import {Injectable} from '@angular/core';
 import {environment} from 'environments/environment';
 import {Http, Response} from '@angular/http';
-import { map, catchError} from 'rxjs/operators';
+import {map, catchError} from 'rxjs/operators';
 import {Todo} from './todo';
 import {Observable} from 'rxjs';
-import { throwError } from 'rxjs';
+import {throwError} from 'rxjs';
 
 const API_URL = environment.apiUrl;
 

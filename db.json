@@ -1,14 +1,9 @@
 {
   "todos": [
     {
-      "title": "425345435345",
+      "title": "Tehtävät",
       "complete": false,
-      "id": 14
-    },
-    {
-      "title": "Lähetä sähköposti projektipäällikölle",
-      "complete": false,
-      "id": 17
+      "id": 1
     }
   ]
 }
