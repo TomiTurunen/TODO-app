@@ -181,8 +181,7 @@ label[for='toggle-all'] {
 	bottom: 0;
 	margin: auto 0;
 	border: none; /* Mobile Safari */
-	-webkit-appearance: none;
-	appearance: none;
+  padding:40px;
 }
 
 .todo-list li .toggle:after {

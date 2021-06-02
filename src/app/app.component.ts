@@ -48,6 +48,10 @@ export class AppComponent implements OnInit {
   }
 
   onRemoveTodo(todo) {
+    if (todo == null) {
+      return;
+    }
+    console.log('miksi tänne meet?');
     this.todoDataService
       .deleteTodoById(todo.id)
       .subscribe(
@@ -56,5 +60,6 @@ export class AppComponent implements OnInit {
         }
       );
   }
+
 }
 
