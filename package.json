@@ -13,21 +13,27 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "@angular/forms": "^4.0.0",
-    "@angular/http": "^4.0.0",
-    "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
-    "@angular/router": "^4.0.0",
-    "core-js": "^2.4.1",
+    "@angular/animations": "^12.0.3",
+    "@angular/cdk": "^12.0.2",
+    "@angular/common": "^12.0.3",
+    "@angular/compiler": "^12.0.3",
+    "@angular/core": "^12.0.3",
+    "@angular/flex-layout": "^12.0.0-beta.34",
+    "@angular/forms": "^12.0.3",
+    "@angular/http": "^7.2.16",
+    "@angular/material": "^12.0.2",
+    "@angular/platform-browser": "^12.0.3",
+    "@angular/platform-browser-dynamic": "^12.0.3",
+    "@angular/router": "^12.0.3",
+    "core-js": "^3.13.1",
     "json-server": "^0.16.3",
-    "rxjs": "^5.1.0",
-    "zone.js": "^0.8.4"
+    "rxjs": "^7.1.0",
+    "rxjs-compat": "^6.6.7",
+    "zone.js": "^0.11.4"
   },
   "devDependencies": {
-    "@angular/cli": "1.0.0",
+    "@angular-devkit/build-angular": "~0.8.0",
+    "@angular/cli": "6.2.9",
     "@angular/compiler-cli": "^4.0.0",
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
@@ -45,6 +51,6 @@
     "todomvc-common": "^1.0.3",
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
-    "typescript": "2.4.2"
+    "typescript": "^2.9.2"
   }
 }
