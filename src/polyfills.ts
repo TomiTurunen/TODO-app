@@ -41,7 +41,7 @@
 
 
 /** Evergreen browsers require these. **/
-import 'core-js/es6/reflect';
+import 'core-js/es/array';
 
 
 /** ALL Firefox browsers require the following to support `@angular/animation`. **/
@@ -52,7 +52,7 @@ import 'core-js/es6/reflect';
 /***************************************************************************************************
  * Zone JS is required by Angular itself.
  */
-import 'zone.js/dist/zone';  // Included with Angular CLI.
+import 'zone.js';  // Included with Angular CLI.
 
 
 

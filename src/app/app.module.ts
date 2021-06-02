@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import {HttpClientModule} from '@angular/common/http';
+import {HttpClient} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { TodoDataService } from './todo-data.service';
@@ -20,9 +22,10 @@ import { ApiService } from './api.service';
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     HttpModule
   ],
-  providers: [TodoDataService, ApiService],
+  providers: [TodoDataService, ApiService, HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
